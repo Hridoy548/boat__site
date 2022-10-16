@@ -1,0 +1,2355 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;;
+    box-sizing: border-box;
+}
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+label {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #a19c9c;
+    text-transform: uppercase;
+}
+hr {
+    margin-bottom: 0 !important;
+}
+.checkbtn {
+    margin-top: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+/* Logiin/Registation Page Start */
+.logreg_img .logreg_main__img {
+    position: relative;
+}
+.logreg_img .logreg_main__img img {
+    width: 100%;
+}
+.logreg_img .logreg_main__img .white_logo{
+    position: absolute;
+    width: 150px;
+    left: 15px;
+    top: 15px;
+}
+.boss_raw__login {
+    justify-content: center;
+    align-items: center;
+}
+.margin_auto {
+    margin: auto;
+}
+.logreg_form__setion h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.logreg_form__setion form input, select {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px #E8E8E8;
+    padding: 0 8px;
+    outline: solid 1px #E8E8E8;
+    font-weight: 500;
+}
+.log_reg__submit {
+    margin-top: 25px;
+    background: #254254;
+    border: none !important;
+    color: #fff;
+    font-weight: 700 !important;
+    outline: none !important;
+}
+.logreg_form__setion span {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.logreg_form__setion span a {
+    color: #254254 !important;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.extra_butooon_div {
+    height: 40px;
+    border-radius: 10px;
+    border: solid 1px #E8E8E8;
+    padding: 3px;
+}
+.extra_butooon_div p {
+    width: 50%;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+    border: none;
+    height: 32px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding-top: 3.5px;
+    cursor: pointer;
+}
+.boat_get_button__active {
+    background-color: #254254 !important;
+    color: #fff !important;
+}
+/* by default boat_get_from2 display none */
+.boat_get_from:last-child{
+    display: none;
+}
+/* #254254 */
+
+.extra_butooon_div p.active{
+    background: #254254;
+    color: #fff;
+}
+
+
+/* Registation Boat Owner Page Start */
+.add_another {
+    margin-top: 30px;
+    font-weight: bold;
+    width: unset !important;
+    background-color: #fff;
+}
+.salesmanid_form .input-col-pos {
+    position: relative;
+}
+.salesmanid_form .row {
+    justify-content: space-between;
+    align-items: center;
+}
+.salesmanid_form span .fa-xmark, .salesmanid_form span .fa-check {
+    position: absolute;
+    right: 10px;
+    top: 22%;
+}
+.salesmanid_form span .fa-xmark, .salesmanid_form  p {
+    color: #FF6E6E;
+}
+.salesmanid_form span .fa-check {
+    color: #66D17B;
+}
+.salesmanid_form span .fa-trash {
+    color: #CCCCCC;
+}
+
+
+
+/* Varify Page Start */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearence: none;
+    background-color: #fff;
+}
+.for_all__select {
+    position: relative;
+}
+.custom-arrow {
+    display: flex !important;
+    height: 100%;
+    width: 4rem;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-top: 0 !important;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.file_uploader {
+    position: relative;
+}
+.file_upload__input {
+    height: unset !important;
+    border-radius: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    outline: 0 !important; 
+}
+input[type=file]::file-selector-button {
+    background-color: #F8F8F8;
+    transition: 1s;
+    height: 150px;
+    width: 42%;
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+}
+.file_uploader .file_icon {
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    width: 30%;
+    height: 50px;
+    background: #F8F8F8;
+    pointer-events: none;
+}
+.file_uploader .file_icon i {
+    font-size: 40px;
+}
+.file_ancor {
+    position: absolute;
+    width: 100%;
+    left: 42%;
+    top: 50%;
+    text-align: left !important;
+}
+.file_ancor a {
+    text-decoration: none;
+    padding-left: 0px !important;
+    margin-right: 11px;
+}
+
+
+/** Bote Owner Home Page Start  **/
+.bote_home .bote_home__mrow {
+    justify-content: flex-end;
+}
+.bote_home__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.header_button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.header_button a:hover{
+    color: white;
+}
+.header_button button{
+    border: none; border-radius: 5px;
+}
+.header_button .btn1{
+    padding: 10px 38px;
+    font-size: 15px;
+    margin-right: 10px;
+    background: #254254;   
+}
+.header_button .btn2{
+    padding: 8px 10px;
+    background: white;
+    border: solid 1px #E8E8E8;
+}
+.header_button .btn2 a{
+    color: black; 
+}
+.boatehome_pic img {
+    width: 100%;
+}
+.bote_home .selec_for__alloption {
+    position: relative;
+}
+.extra_design__mainsec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 260px;
+    background-color: #F8F8F8;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+.extra_design__mainsechelp {
+    width: 170px;
+    background-color: #fff;
+    box-shadow: 0 0 0.58rem 0 #E8E8E8;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 260px;
+    top: 0;
+}
+.extra_design__mainsechelp a:nth-child(1), .extra_design__mainsechelp a:nth-child(2) {
+    padding-bottom: 5px;
+    color: #000;
+}
+.extra_design__mainsechelp a:nth-child(3) {
+    color: #FF6E6E;
+}
+.extra_design__mainsechelp a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+.edm_content p {
+    margin-bottom: 0 !important;
+    color: #636363;
+}
+.edm_content h4 {
+    font-size: 20px;
+    margin-bottom: 0 !important;
+}
+.checkbtn {
+    font-size: 26px;
+    color: #254254;
+    float: right;
+    line-height: 28px;
+    margin-right: 0;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+} 
+.bote_home__maincontent h2 {
+    font-weight: bold;
+    color: #000;
+    width: 80%;
+    font-size: 36px;
+}
+.bote_home__maincontent p {
+    width: 70%;
+}
+
+
+
+/* Header Stat */
+.main_header .site_navbar {
+    position: relative;
+}
+.main_header .site_navbar::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    background-color: #E8E8E8;
+}
+.main_header .site_navbar ul {
+    margin-bottom: 0;
+    z-index: 20;
+}
+.main_header .extra_design__mainsec {
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.main_header .selec_for__alloption select {
+    background-color: #fff !important;
+    border: none !important;
+    outline: none;
+}
+.for_language__choose {
+    position: relative;
+}
+.for_language__choose select {
+    width: 75px;
+    border: none !important;
+    outline: none;
+}
+.flc_absolute {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-weight: bold;
+    pointer-events: none;
+}
+/* Header Stop */
+/* Boat Owner Profile Page Start */
+.main_header .selec_for__alloption {
+    width: 260px;
+    position: relative;
+}
+.main_header .selec_for__alloption  .extra_design__mainsechelp {
+    left: 80px;
+    top: 60px;
+    z-index: 150;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container .ste_logo {
+    width: 20%;
+}
+.header_container .ste_logo img {
+    width: 145px;
+}
+.header_container .site_navbar {
+    width: 60%;
+}
+.header_container .site_navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header_container .site_navbar ul li {
+    padding-right: 50px;
+}
+.header_container .site_navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+} 
+.profile__top {
+    padding-top: 20px;
+}
+.profile_cover_sec img {
+    width: 100%;
+}
+.profile_main_sec {
+    text-align: center;
+    height: 70px;
+}
+.profile_main_sec img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 60px;
+}
+.porf_details h4 {
+    font-weight: bold;
+}
+.porf_details .prof_rview {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.7rem;
+}
+.porf_details .prof_rview span i {
+    color: #FBBD60;
+}
+.porf_details .prof_cot_detainls {
+    margin-bottom: 20px;
+}
+.porf_details .prof_cot_detainls span {
+    font-weight: bold;
+}
+.porf_details .prof_cot_detainls span:nth-child(1) {
+    padding-right: 10px;
+    display: inline-block;
+}
+.porf_details .prof_cot_detainls span i {
+    padding-right: 5px;
+}
+.porf_details a {
+    text-decoration: none;
+    padding: 7px 35px;
+    border: solid 1px #E8E8E8;
+    border-radius: 7px;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+}
+.porf_details a:hover {
+    color: #000;
+}
+.profile_bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.profile_bottom .bootist {
+    position: relative;
+}
+.profile_bottom .bootist::after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+}
+.profile_bottom .bootist a {
+    padding: 12px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+.profile_bottom .bootist a:hover {
+    color: #000;
+}
+.profile_bottom .bootist .boat_active {
+    font-weight: bold;
+    position: relative;
+}
+.profile_bottom .bootist .boat_active::after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #254254;
+    border-radius: 5px;
+}
+.profile_bottom .bootist_op {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.profile_bottom .bootist_op p {
+    margin-bottom: 0 !important;
+    font-weight: bold;
+}
+.profile_bottom .bootist_op a {
+    padding: 8px 13px;
+    background-color: #254254;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.botlist_img img {
+    width: 100%;
+}
+.bootlist_margin {
+    margin-right: 6%;
+}
+.bootlist_margin_center {
+    margin: 0 3%;
+}
+.bootlist_margin__left {
+    margin-left: 6%;
+}
+.bootlist_margin__row {
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+}
+.bootlist_last__bottom h5 {
+    font-weight: bold;
+    margin-bottom: .5rem !important;
+}
+.bootlist_last__bottom .blb_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+}
+.bootlist_last__bottom .blb_container::after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+}
+.bootlist_last__bottom .blb_container span {
+    font-weight: 600;
+    font-size: 14px;
+}
+.bootlist_last__bottom .blb_container .blb_extra__span {
+    font-weight: 500 !important;
+    padding-left: 3px;
+}
+.blb_container .fa-star, .blb_container .fa-users {
+    font-size: 14px;
+    padding-right: 5px;
+}
+.blb_container .fa-star {
+    color: #FBBD60;
+}
+.blb_container .active_icon {
+    padding-right: 5px;
+}
+.blb_container .fa-caret-down {
+    padding-left: 5px;
+}
+    
+
+/* Booking Pending Page */
+.book_pending_buttons {
+    padding: 20px 0;
+}
+.book_pending_buttons a {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    border: solid 1px #E8E8E8;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.book_pending_buttons a:hover {
+    color: #000;
+}
+.book_pending_buttons .main_button {
+    background-color: #254254;
+    color: #fff;
+    border: none;
+}
+.book_pending_buttons .main_button:hover {
+    color: #fff;
+}
+
+.all_pending__master {
+    padding: 15px;
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.all_pending__master img {
+    width: 100%;
+    height: 100%;
+}
+.all_pending__master .pending_middle {
+    padding-left: 20px;
+}
+.all_pending__master label {
+    margin-top: 0 !important;
+}
+.all_pending__master .pending_middle h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.all_pending__master .pending_middle span {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #666666;
+    font-weight: 500;
+}
+.all_pending__master .pending_middle p {
+    font-weight: 500;
+}
+.all_pending__master .pending_rigt {
+    float: right;
+}
+.all_pending__master .pending_rigt h1 {
+    font-size: 29px;
+    font-weight: bold;
+}
+.all_pending__master .pending_right__cont {
+    float: right;
+}
+.all_pending__master .pending_button a {
+    padding: 5px 15px;
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.all_pending__master .pending_button a:hover {
+    color: #000;
+}
+.all_pending__master .pending_button a:nth-child(1) {
+    margin-right: 7px;
+}
+.all_pending__master .pending_button .fa-check, .multiple_button .fa-check{
+    color: #66D17B;
+    padding-right: 5px;
+}
+.all_pending__master .pending_button .fa-xmark, .multiple_button .fa-xmark {
+    color: #FF6E6E;
+    padding-right: 5px;
+}
+.pending_right__cont div {
+    text-align: right;
+}
+.pending_right__cont div i {
+    padding-right: 5px;
+    color: #66D17B;
+}
+.pending_right__cont div span {
+    font-weight: bold;
+}
+
+
+/** Edit Profile Page Start **/
+.editprofile_area h4 {
+    font-weight: 600;
+}
+.profile_cover{
+    width: 100%;
+}
+.prop_center{
+    align-items: center;
+}
+.profile_pic img {
+    width: 100%;
+} 
+.chang_name a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.chang_name a:hover{
+    color: #000;
+}
+.change_name_prof {
+    padding-left: 20px;
+}
+.chang1{
+    margin-right: 15px;
+}
+.aboutextra_hight{
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px #E8E8E8;
+    padding: 8px;
+    outline: none;
+    font-weight: 500;
+}
+.edit_profbut__button button {
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.edit_profbut__button button:nth-child(1) {
+    background-color: #fff;
+    margin-right: 10px;
+    border: solid 1px #E8E8E8; 
+}
+.edit_profbut__button button:nth-child(2) {
+    background-color: #254254;
+    color: #fff;
+    border: none;
+} 
+
+/* Manage Salesmen Start */
+.manage_salesmen__main {
+    margin: 50px 0 30px;
+}
+.manage_sales__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manage_sales__header h4 {
+    font-weight: bold;
+} 
+.manage_sales__header a {
+    padding: 8px 10px;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: solid 1px #E8E8E8;
+} 
+.manage_sales__header a:hover {
+    color: #000;
+}
+.manage_owner_section {
+    margin: 20px 0;
+}
+.manage_salesmen__main h5 {
+    font-weight: bold;
+}
+.profile_owner {
+    align-items: center;
+    padding: 15px;
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.profile_owner img {
+    width: 100%;
+}
+.owner_id {
+    padding-left: 15px;
+}
+.owner_id p {
+    margin-bottom: 0 !important;
+}
+.owner_id p:nth-child(1) {
+    font-weight: bold;
+}
+.profile_owner i {
+    font-size: 16px;
+    color: #666666;
+}
+.profile_owner span .fa-pencil {
+    margin-right: 20px;
+}
+.new_salesmanadd__pop1 {
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+    visibility: hidden;
+    z-index: 200;
+}
+.new_salesmanadd__pop1 .new_sad__pop1cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.new_salesmanadd__pop1 .new_sad__pop1cont .for_box_shadow {
+    box-shadow: 0 0 0.1875rem 0 #E8E8E8;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.new_salesmanadd__pop1 .logreg_form__setion span {
+    text-align: left;
+}
+.new_salesmanadd__pop1 label {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+
+/* Manage Salesman Page Start **/
+.new_salesman__aadd .sale_span_left {
+    text-align: left !important;
+}
+
+
+/* New Saleman */
+.new_salesman__aadd {
+    margin: 30px;
+}
+/* new sales pop 2*/
+.sales_poptwo__content {
+    text-align: center;
+}
+.pop_2__icon {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
+    background: #E8E8E8;
+    margin-bottom: 10px;
+}
+.pop_2__icon i {
+    font-size: 36px;
+    color: #66D17B;
+}
+.pop_2__button .pop_two___but1 {
+    padding: 8px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #E8E8E8;
+    display: inline-block;
+    margin-right: 5px;
+}
+.pop_2__button .pop_two___but2 {
+    padding: 8px 10px;
+    background-color: #254254;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    border: none;
+    font-weight: 700;
+}
+.pop_2__button .pop_two___but2:hover {
+    color: #fff;
+}
+
+/* New Booking Page */
+.new_book__add {
+    margin: 30px 0;
+}
+.add_book_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_book_line span {
+    font-size: 24px;
+    cursor: pointer;
+}
+.for_box_shadow {
+    box-shadow: 0 0 0.1875rem 0 #E8E8E8;
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+.new_book__button {
+    text-align: right;
+    margin-top: 20px;
+}
+.new_book__button button a {
+    padding: 8px 10px;
+    background-color: #254254;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.full_prof_diet i {
+    cursor: pointer;
+}
+.new_book__button button a:hover {
+    color: #fff;
+}
+.double_row {
+    justify-content: space-between;
+}
+.double_label {
+    display: flex;
+    justify-content: space-between;
+}
+.add_book_line form .for_all__select select {
+    cursor: pointer;
+}
+
+
+/* Multiple Books Main ALL */
+.mulitple_books_maingall {
+    margin: 30px 0;
+}
+.mulitple_books_maingall .multiple_act__boss2 {
+    padding: 20px;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+.mulitple_books_maingall .multiple_button {
+    padding: 20px 0 0;
+    border-top: dashed 2px #E8E8E8;
+}
+.mulitple_books_maingall .last_multi3__bottop {
+    margin-top: 10px 0 20px !important;
+}
+.mulitple_books_maingall .multiple_cont3 h4 {
+    font-weight: bold;
+}
+.only_for_notes {
+    margin: 25px 0 8px;
+}
+.multiplepage3 .multicont_two_page3 {
+    margin-top: 20px;
+    border-bottom: dashed 2.5px #E8E8E8;
+    border-top: dashed 2.5px #E8E8E8;
+}
+.multiple_button3 {
+    padding: 20px 0 0;
+    border-top: dashed 2px #E8E8E8;
+}
+.multiple_button3 a {
+    padding: 5px 10px;
+    display: block;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    border: solid 1px #E8E8E8;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.multiple_button3 a:hover {
+    color: #000;
+}
+.multiple_button3 i {
+    color: #FF6E6E;
+    padding-right: 5px;
+}
+
+/** Multiple Boats Page Start **/
+.multiple_books .multiple_books__marginer {
+    padding: 0 20px;
+    margin: 50px 0;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+.multiple_books .multiple_act__boss {
+    position: relative;
+    padding: 20px 20px 0 0;
+}
+.multiple_books .multiple_act__boss::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background: #E8E8E8;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.multiple_books .multiple_act{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.multiple_books .multiple_act_extra {
+    background-color: #E5F5FF;
+    border-radius: 5px;
+}
+.multiple_books .multiple_act h5{
+    font-size: 18px;
+    margin-bottom: 0 !important;
+    font-weight: bold;
+}
+.multiple_books .multiple_act p{
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+.multiple_books .multiple_cont h4, .multiple_books .multiple_cont p, .multiple_books .multiple_cont h5 {
+    margin-bottom: 0 !important;
+}
+.multiple_books .multiple_cont1 h4, .multiple_books .multiple_cont2 h5 {
+    font-weight: 700;
+}
+.multiple_books .multiple_cont1 span {
+    color: #666666;
+    font-weight: bold;
+}
+.multiple_books .multiple_cont2 {
+    padding-bottom: 20px;
+    border-bottom: dashed 2.5px #E8E8E8;
+}
+.multiple_books .multiple_cont2.extra {
+    border: none;
+}
+.multiple_books .multiple_cont2 h5 {
+    display: flex;
+    justify-content: space-between;
+}
+.multiple_books .multiple_cont2 .multispan_color {
+    color: #666666;
+    font-weight: 600 !important;
+}
+.multiple_books .multiple_cont3 div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.multiple_books .multiple_cont3 div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.multiple_books .multiple_cont3 div p:nth-child(2) {
+    font-weight: bold;
+}
+.multiple_books .multiple_button {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: solid 1px #E8E8E8;
+}
+.multiple_button a:hover {
+    color: #000;
+}
+.multiple_button div {
+    display: flex;
+    justify-content: space-between;
+}
+.multiple_button a {
+    border-radius: 5px;
+    border: solid 1px #E8E8E8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+.multiple_button .fa-check, .multiple_button .fa-xmark {
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+/** Calander Month Page Start **/
+.calender_main  {
+    padding: 50px 0;
+}
+.arrow_icn{
+    font-size: 15px;
+}
+.arrow_icn h4 {
+    margin-bottom: 0 !important;
+    font-weight: bold;
+}
+.calender_main__jeading {
+    font-weight: 700;
+    font-size: 20px;
+}
+.arrow_icn .fa-chevron-left{
+    margin-right: 15px;
+}
+.arrow_icn h4{
+    display: inline-block;
+    margin-left: 30px;
+}
+.months{
+    border-radius: 5px;
+    border: solid 1px #E8E8E8;
+    display: inline-block;
+}
+.months .act:hover {
+    color: #fff;
+}
+.booking button{
+    outline: none;
+    border: none;
+    background: none;
+    margin-right: 5px;
+}
+.booking a{
+    text-decoration: none;
+    padding: 7.5px 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: solid 1px #E8E8E8;
+}
+.booking a:hover {
+    color: #000;
+}
+.booking i{
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+.calender_main .days, .calender_main .weekdays {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-left: 0;
+}
+.calender_main .weekdays li{
+    display: inline-block;
+    width: 14.42%;
+    font-weight: bold;
+    text-align: center;
+}
+.calender_main .days {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0 !important;
+}
+.calender_main .days li{
+    display: inline-block;
+    text-align: right;
+    border: solid 1px #E8E8E8;
+    height: 140px;
+    width: 14.42%;
+    padding: 10px;
+}
+.calender_main .last_days li:nth-child(4), .calender_main .last_days li:nth-child(5), .calender_main .last_days li:nth-child(6), .calender_main .last_days li:nth-child(7) {
+    visibility: hidden;
+}
+.calender_month__main .days {
+    padding-left: 0 !important;
+}
+.calender_main .new_salesmanadd__pop1 {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+.calender_main .for_box_shadow {
+    background-color: #fff;
+}
+
+
+/* Calender Week Start */
+.calender_week__ulmaster  {
+    display: flex;
+}
+.calender_week__ulmaster ul {
+    list-style: none;
+    margin-bottom: 0;
+    width: 13%;
+    padding-left: 0;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+.calender_week__ulmaster ul::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    background-color: #E8E8E8;
+}
+.calender_week__ulmaster ul:nth-child(8)::after {
+    display: none;
+}
+.calender_week__ulmaster ul:nth-child(1) {
+    width: 9%;
+}
+.calender_week__ulmaster ul li {
+    padding: 3px 0;
+}
+.calender_week__ulmaster ul li:nth-child(even) {
+    background-color: #eaf7ff;
+}
+.calender_week__ulmaster ul li span {
+    visibility: hidden;
+}
+.calender_week__ulmaster ul:nth-child(1) li span {
+    visibility: visible;
+}
+.calender_week__ulmaster ul li:nth-child(1) span {
+    visibility: hidden;
+}
+/* .calender_week__ulmaster ul li:nth-child(1) {
+    padding: 10px 0;
+} */
+.cw_main_ul3 {
+    position: relative;
+}
+.calender_week__ulmaster .cw_first_postionul, .calender_week__ulmaster .cw_second_postionul {
+    position: absolute;
+    left: 0;
+    top: 24%;
+    transform: rotate(-90deg);
+    border: none;
+    font-size: 10px;
+    width: 100%;
+    z-index: 50;
+}
+.calender_week__ulmaster .cw_first_postionul::after, .calender_week__ulmaster .cw_second_postionul::after {
+    display: none;
+}
+.calender_week__ulmaster .cw_first_postionul {
+    top: 22%;
+}
+.calender_week__ulmaster .cw_first_postionul li:nth-child(1) {
+    background-color: #E5F5FF;
+    color: #009CFF;
+    padding: 15.5px 10px;
+    border-top: 1px solid #009CFF;
+    border-right: 1px solid #009CFF;
+    border-left: 1px solid #009CFF;
+    width: 120px;
+}
+.calender_week__ulmaster .cw_first_postionul li:nth-child(2) {
+    background-color: #FFF3D2;
+    color: #C7A859;
+    border: 1px solid #C7A859;
+    padding: 15.5px 10px;
+    width: 120px;
+}
+.calender_week__ulmaster .cw_second_postionul {
+    top: 62.5%;
+}
+.calender_week__ulmaster .cw_second_postionul li {
+    width: 140px;
+    padding: 4.6px 10px;
+}
+.calender_week__ulmaster .cw_second_postionul li:nth-child(1), .calender_week__ulmaster .cw_second_postionul li:nth-child(5) {
+    background-color: #E5F5FF;
+    color: #009CFF;
+    border-top: 1px solid #009CFF;
+    border-right: 1px solid #009CFF;
+    border-left: 1px solid #009CFF;
+    width: 140px;
+    padding: 4.6px 10px;
+}
+.calender_week__ulmaster .cw_second_postionul li:nth-child(2) {
+    background-color: #FFF3D2;
+    color: #C7A859;
+    border-top: 1px solid #C7A859;
+    border-right: 1px solid #C7A859;
+    border-left: 1px solid #C7A859;
+}
+.calender_week__ulmaster .cw_second_postionul li:nth-child(3) {
+    background-color: #F8E5FF;
+    color: #D781FF;
+    border-top: 1px solid #D781FF;
+    border-right: 1px solid #D781FF;
+    border-left: 1px solid #D781FF;
+}
+.calender_week__ulmaster .cw_second_postionul li:nth-child(4) {
+    background-color: #FFEEE5;
+    ;
+    color: #FF9C41;
+    border-top: 1px solid #FF9C41;
+    border-right: 1px solid #FF9C41;
+    border-left: 1px solid #FF9C41;
+}
+.calender_week__ulmaster .cw_second_postionul li:nth-child(5) {
+    border-bottom: 1px solid #009CFF;
+}
+.calender_week__ulmaster .cw_main_ul3 {
+    position: relative;
+}
+.calender_week__ulmaster .cw_main_ul3 .cw_third_postionul {
+    position: absolute;
+    width: 100%;
+    height: 179px;
+    left: 0;
+    top: 30%;
+    background-color: #FFF3D2;
+    color: #C7A859;
+    border: solid 1px #C7A859;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+.calender_week__ulmaster .cw_third_postionul::after {
+    display: none;
+}
+
+
+/* Calender Day Stop */
+.calender_day__ulmaster ul{
+    list-style: none;
+    font-weight: bold;
+    padding-left: 0 !important;
+}
+.calender_day__ulmaster ul li {
+    padding: 3px 0 3px 10px;
+    border-top: solid 1px #E8E8E8;
+}
+.calander_day_mainul {
+    position: relative;
+}
+.calender_day__ulmaster .calander_day_mainul .calander_day_pose1 {
+    position: absolute;
+    width: 92%;
+    right: 0;
+    top: 10%;
+    display: flex;
+} 
+.calender_day__ulmaster .calander_day_mainul .calander_day_pose1::after {
+    display: none;
+}
+.calander_day_mainul .calander_day_pose1 li h4, .calander_day_mainul .calander_day_pose2 li h4 {
+    font-weight: bold;
+    color: #000;
+}
+.calander_day_mainul .calander_day_pose1 li p, .calander_day_mainul .calander_day_pose2 li p {
+    font-weight: 440;
+    font-size: 14px;
+    color: #766D79;
+}
+.calander_day_mainul .calander_day_pose1 li:nth-child(1) {
+    background: #E5F5FF;
+    width: 20%;
+    height: 145px;
+    padding-top: 10px;
+    border-top: 1px solid #009CFF;
+    border-left: 1px solid #009CFF;
+    border-bottom: 1px solid #009CFF;
+}
+.calander_day_mainul .calander_day_pose1 li:nth-child(2) {
+    background: #FFF3D2;
+    width: 20%;
+    height: 145px;
+    padding-top: 10px;
+    border-top: 1px solid #C7A859;
+    border-left: 1px solid #C7A859;
+    border-bottom: 1px solid #C7A859;
+}
+.calander_day_mainul .calander_day_pose1 li:nth-child(3) {
+    background: #F8E5FF;
+    width: 20%;
+    height: 181px;
+    padding-top: 10px;
+    border-top: 1px solid #D781FF;
+    border-left: 1px solid #D781FF;
+    border-bottom: 1px solid #D781FF;
+}
+.calander_day_mainul .calander_day_pose1 li:nth-child(4) {
+    background: #FFEEE5;
+    width: 20%;
+    height: 108px;
+    padding-top: 10px;
+    border-top: 1px solid #FF9C41;
+    border-left: 1px solid #FF9C41;
+    border-bottom: 1px solid #FF9C41;
+}
+.calander_day_mainul .calander_day_pose1 li:nth-child(5) {
+    padding: 0;
+    background: #E5F5FF;
+    width: 20%;
+    height: 145px;
+    border: solid 1px #009CFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calander_day_mainul .calander_day_pose2 {
+    position: absolute;
+    width: 92%;
+    right: 0;
+    background-color: #FFF3D2;
+    border: solid 1px #C7A859;
+    padding: 0;
+    height: 160px;
+    top: 59%;
+}
+.calander_day_mainul .calander_day_pose2 li {
+    padding: 20px;
+    border: none;
+}
+
+
+/* Nofification Page Start */
+.notification_manage {
+    padding: 30px 0;
+}
+.notification_area ul {
+    list-style: none;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+.notification_area ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: solid 2px #E8E8E8;
+    margin-bottom: 15px;
+}
+.notification_area ul li .notification_ul_lileft h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.notification_area ul li .notification_ul_lileft p {
+    margin-bottom: 0 !important;
+}
+.notification_area ul li .notification_ul_liright a {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* calender_week__ulmaster */
+.cal {
+    display: none;
+}
+.months a{
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+}
+.months a:hover{
+    color: #666666;
+}
+.months a.active{
+    border-radius: 5px;
+    background: #254254; 
+    color: #fff;
+}
+.booking_show_container {
+    display: none;
+}
+.row.pending_container, .row.confirm_container {
+    display: none;
+}
+.row.pending_container.active, .row.confirm_container.active {
+    display: block;
+}
+.extra_design__mainsechelp {
+    display: none;
+}
+.extra_design__mainsechelp.active {
+    display: block;
+}
+.extra_div_cal .multiple_act__boss2 {
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+    background: #fff;
+    z-index: 160;
+    padding: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+.bote_home .site_navbar ul {
+    margin-bottom: 0 !important;
+}
+
+
+/* Bote Home Page 2 */
+.searchSection img {
+    height: 15px;
+    width: 15px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.searchSection .searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.searchSection .searchBar div:nth-child(1) {
+  width: 26%;
+  border-right: solid 2px #E8E8E8;
+  margin-right: 2%;
+}
+.searchSection .searchBar div {
+    width: 24%;
+}
+
+.searchSection .searchBar div span {
+  font-size: 10px;
+  color: gray;
+  font-weight: bold;
+}
+
+.searchSection .searchBar div h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.searchSection .searchBar button {
+  background-color: #254254;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+}
+.bote_home .site_navbar ul {
+    margin-bottom: 0 !important;
+}
+
+/* Admin Panel Home Page */
+.admin_panel_extramargin {
+    margin-bottom: 5rem;
+}
+.agent_profile__bottom .bootist_op {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: solid 2px #E8E8E8;
+    margin-top: 30px;
+    border-radius: 5px;
+    align-items: center;
+}
+.agent_profile__bottom .bootist_op select, .agent_profboatlist_page .bootist_op select {
+    cursor: pointer;
+}
+.agent_profile__bottom .add_boat__boss, .agent_profboatlist_page .add_boat__boss {
+    position: relative;
+}
+.agent_profile__bottom .add_boat__boss select, .agent_profboatlist_page .add_boat__boss select {
+    padding: 0 40px 0 10px;
+    text-align: left;
+    font-weight: bold;
+}
+.agent_profile__bottom .add_boat__boss .span_check_bot {
+    position: absolute;
+    right: 10px;
+    top: 22%;
+    pointer-events: none;
+}
+/* Agent Boat List Page Start */
+.agent_profboatlist_page .add_boat__boss .span_check_bot {
+    position: absolute;
+    right: 20px;
+    top: 22%;
+    pointer-events: none;
+}
+.agent_profboatlist_page .bootist_op {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+@media only screen and (min-width: 1200px) {
+    .agent_profboatlist_page .bootlist_last__bottom h5 {
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width: 1332px) {
+    .agent_profboatlist_page .bootlist_last__bottom h5 {
+        font-size: 1.25rem;
+    }
+}
+.agent_btlist_left select {
+    font-weight: normal !important;
+}
+.agent_btlist_left .extra_plus_mines {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border: solid 2px #E8E8E8;
+    border-radius: 5px;
+}
+.agent_profboatlist_page .agent_btlist_left {
+    padding: 50px 30px 20px 0;
+}
+@media only screen and (max-width: 757px) {
+    .agent_profboatlist_page .agent_btlist_left {
+        padding: 30px 0 20px;
+    }
+}
+
+/* Boat Details Page Start */
+.boat_details__page {
+    background: #F8F8F8;
+}
+.boat_details__bosstwo {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.boat_sp_spaner {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+.boat_sp_spaner:nth-child(odd):after {
+    position: absolute;
+    content: "";
+    background: #E8E8E8;
+    width: calc(100% - 1rem);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+.boat_sp_spaner:nth-child(even):after {
+    position: absolute;
+    content: "";
+    background: #E8E8E8;
+    width: calc(100% - 1rem);
+    height: 1px;
+    bottom: 0;
+    right: 0;
+}
+.boat_sp_spaner span:nth-child(1) {
+    font-weight: bold; 
+    color: #1A1A1A; 
+    opacity: 0.4;
+    display: inline-block;
+    padding: 10px 0;
+}
+.boat_sp_spaner span:nth-child(2) {
+    font-weight: bold; 
+    color: #000;
+    display: inline-block;
+    padding: 10px 0;
+}
+.for_i_padd i {
+    padding-right: 10px;
+}
+.boat_details__addon img {
+    width: 100%;
+}
+.boat_details__addon .bd_adon__box {
+    border-top: solid 1px #E8E8E8;
+    border-bottom: solid 1px #E8E8E8;
+}
+.boat_details__addon .bd_adon__box p {
+    margin-bottom: .4rem;
+    font-weight: bold;
+}
+.boat_details__addon .bd_adon__box span {
+    color: #1A1A1A;
+    opacity: 0.8;
+    font-weight: 550;
+    font-size: 15px;
+}
+.boat_details__addon .bd_adon__box  h6 {
+    color: #363D46;
+    font-weight: bold;
+}
+.bd_adon__ancor a {
+    font-weight: bold;
+    color: #009CFF;
+}
+.boat_details__pickup .boat_pk_content {
+    border-top: solid 1px #E8E8E8;
+    border-bottom: solid 1px #E8E8E8;
+}
+.boat_details__pickup h6 {
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.boat_details__pickup .bdpick_left span {
+    font-weight: bold;
+    color: #1A1A1A;
+}
+.boat_details__pickup .bdpick_right iframe {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+.boat_details__pickup .bdpick_right p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #363D46;
+    font-size: 17px;
+}
+.boat_details__check .boat_pk_content, .boat_details__card .boat_pk_content {
+    border-top: none;
+}
+.boat_details__check .bdpick_right p {
+    margin-top: 0;
+}
+.boat_details__check .bdpick_right span:nth-child(1) {
+    font-weight: bold;
+    width: 110px;
+}
+.boat_details__card .bdpick_right img:nth-child(1) {
+    width: 43px;
+    margin-right: 10px;
+}
+.boat_details__card .bdpick_right img:nth-child(2) {
+    width: 23px;
+    margin-right: 10px;
+}
+.boat_details__card .bdpick_right img:nth-child(3) {
+    width: 67px;
+    margin-right: 10px;
+}
+.boat_details__card .bdpick_right img:nth-child(4) {
+    width: 60px;
+}
+.boat_details__reviews p {
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #E8E8E8;
+}
+.bds_content .bdpick_right div {
+    margin-bottom: 5px;
+}
+.bds_content .bdpick_right div button {
+    background: none;
+    border: none;
+}
+.bds_content .bdpick_right div button i {
+    color: #FBBD60;
+}
+.bds_content .bdpick_right span {
+    color: #1A1A1A;
+    opacity: .8;
+}
+.boat_details__question p {
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+}
+.boat_details__question .bottom_of__faq a {
+    color: #254254;
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+/* Q&A Area Start */
+.boat_details__question .bd_question__div {
+    border: solid 1px #E8E8E8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.boat_details__question .bd_question__div .question {
+    padding: 15px;
+}
+.boat_details__question .bd_question__div .question p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.boat_details__question .bd_question__div .answer {
+    padding: 15px;
+    background-color: #E8E8E8;
+}
+.boat_dtails_mcalander ul  {
+    height: unset;
+    border: none;
+    width: unset;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+}
+.boat_dtails_mcalander ul li {
+    padding: 0;
+    margin: 0;
+    width: unset;
+    color: #000;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.boat_dtails_mcalander ul .done_date {
+    color: #CCCCCC;
+}
+.boat_dtails_mcalander ul .extra_date {
+    color: #009CFF;
+}
+.boat_details__right .extra_clander_spdiv span {
+    display: block;
+    color: #000;
+    opacity: .6;
+    text-align: center;
+    font-weight: 500;
+}
+.boat_details__messbutton {
+    margin-top: 20px;
+}
+.boat_details__messbutton a {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    border: solid 1px #E8E8E8;
+    border-radius: 10px;
+}
+.boat_details__messbutton a:hover {
+    color: #000;
+}
+/* Message Page Start */
+.message .messageBox {
+    padding: 0 0 .500rem .75rem;
+}
+.actualMessageOfUser .smallMessages {
+    background-color: #fff;
+}
+.message_input {
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: none;
+    margin-left: 20px;
+}
+.container.message {
+    padding-top: 30px;
+}
+.containaer_abba {
+    background-color: #E5E5E5;
+}
+@media (min-width: 768px) {
+.container, .container-md, .container-sm {
+  max-width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+}
+/* My Booking Page Start */
+.my_booking_page .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my_booking_page .heading form {
+    position: relative;
+}
+.my_booking_page .heading form input {
+    outline: none;
+}
+.my_booking_page .heading form span {
+    position: absolute;
+    top: 22%;
+    left: 9px;
+    color: #ccc;
+}
+.my_booking_page .content_box h6 {
+    font-weight: bold;
+}
+.my_booking_page .confirm_container {
+    display: block;
+}
+.my_booking_page .all_pending__master .pending_middle p {
+    font-weight: bold;
+}
+@media only screen and (min-width: 992px){
+.my_booking_page .all_pending__master .pending_middle {
+  padding-left: 20px;
+}
+}
+.last_booking_pendbootm {
+    padding-top: 15px;
+    border-top: solid 1px #E8E8E8;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000;
+}
+.my_booking_page .last_book_contanc {
+    padding: 7.5px 20px;
+    border-radius: 10px;
+    background-color: #254254;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin-top: 3px;
+}
+.my_booking_page .last_book_contanc:hover {
+    color: #fff;
+}
+/* Checkout Page Start */
+.checkout_page {
+    padding-top: 100px;
+}
+.checkout_page .new_salesmanadd__pop1 {
+    position: static;
+    visibility: visible;
+    background: none;
+}
+.checkout_page .pop_2__icon {
+    background: none;
+}
+.checkout_page .new_salesmanadd__pop1 .new_sad__pop1cont .for_box_shadow {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+.checkout_page .new_salesmanadd__pop1 .new_sad__pop1cont {
+    display: block;
+}
+.checkout_page .pop_2__icon {
+    padding: 0;
+}
+.checkout_page .sales_poptwo__content h4 {
+    font-weight: bold;
+}
+.checkout_page .sales_poptwo__content p {
+    color: #000;
+    opacity: .8;
+}
+.checkout_page .pop_2__button a {
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* Payment Confirmation Page Start */
+.payment_confirmation__page {
+    padding: 40px 0;
+    background-color: #FAFAFA;
+}
+.payment_confirmation__page .mainFormContentSection {
+    padding: 25px;
+}
+.payment_confirmation__page .logreg_form__setion label {
+    margin: 15px 0 7.5px;
+    font-weight: bold;
+}
+.payment_confirmation__page .logreg_form__setion .file_upload__input {
+    width: 65%;
+}
+.payment_confirmation__page .file_uploader .file_icon {
+    width: 15%;
+}
+.payment_confirmation__page .file_uploader .file_ancor {
+    left: 27.2%;
+}
+.payment_confirmation__page .file_uploader .file_ancor a {
+    cursor: pointer;
+}
+.payment_confirmation__page .logreg_form__setion .log_reg__submit {
+    width: unset;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+.payment_confirmation__page .logreg_form__setion .log_reg_but {
+    text-align: right;
+}
+.payment_confirmation__page .logreg_form__setion .log_reg_but {
+    text-align: right;
+}
+.file_upload__input {
+    cursor: pointer;
+}
+/* Payment Page Start */
+.payment_page_area {
+    padding: 30px 0;
+    background-color: #FAFAFA;
+}
+.payment_content__container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: flex-end;
+}
+.payment_page_area .multiple_books {
+    padding: 15px;
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+}
+.payment_page_area .multiple_books .multiple_cont1 img {
+    padding-right: 5px;
+}
+.payment_page_area .multiple_books .multiple_cont1 p {
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: dashed 2.5px #E8E8E8;
+}
+.payment_page_area .multiple_cont2 p {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.payment_page_area .multiple_cont3 div h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.payment_page_area .payment_button a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 7.5px 0;
+    border-radius: 10px;
+    background-color: #254254;
+    color: #fff;
+    font-weight: bold;
+}
+.payment_left_top a {
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+}
+.payment_left_top a i {
+    padding-right: 10px;
+}
+.payment_left_top h4 {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #000;
+}
+.payment_page_area .main_contet .card-body {
+    flex-direction: column;
+}
+.payment_page_area .main_contet .card-body div {
+    text-align: center;
+} 
+.payment_page_area .main_contet .card-body div img {
+    width: 90px;
+    margin-bottom: 10px;
+}
+/* Payment Summarey Page Start */
+.payment_summary__page .ps_celltwo__middle h3 {
+    margin-bottom: 0;
+    color: #000;
+}
+.payment_summary__page .ps_celltwo__middle span {
+    color: #000000;
+    opacity: 0.6;
+    font-weight: bold;
+}
+.payment_summary__page .ps_celltwo__middle div {
+    color: #000;
+    padding-top: 5px;
+}
+.payment_summary__page .ps_celltwo__middle div img {
+    padding-right: 5px;
+}
+.payment_summary__page .ps_celltwo__middle div span {
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 20px;
+    opacity: 1;
+}
+.payment_summary__page .add_boat__boss {
+    position: relative;
+}
+.payment_summary__page .add_boat__boss .span_check_bot {
+    position: absolute;
+    right: 20px;
+    top: 22%;
+    pointer-events: none;
+}
+select {
+    cursor: pointer;
+}
+.payment_people__charter h6 {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0;
+}
+.payment_people__charter .extra_plus_mines {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border: solid 2px #E8E8E8;
+    border-radius: 5px;
+}
+.payment_people__charter, .summary_aplly__pay {
+    border-top: dashed 2.5px #E8E8E8;
+    border-bottom: dashed 2.5px #E8E8E8;
+}
+.summary_addon .sm_adon_head h6  {
+    font-weight: bold;
+    margin-bottom: .3rem;
+    color: #000;
+}
+.summary_addon .sm_adon_head p {
+    color: #000000;
+    opacity: 0.8;
+}
+.payment_summary__page .bookingSummary {
+    display: flex;
+}
+.payment_summary__page .bookingSummary .aboutBoatTime {
+    border: solid 1.5px #E8E8E8;
+    background-color: #fff;
+}
+.payment_summary__page .bookingSummary .aboutBoatTime input {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.payment_summary__page .bookingSummary .aboutBoatTime p {
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+}
+.payment_summary__page .bookingSummary .aboutBoatTime span {
+    color: #000000;
+    opacity: 0.4;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.summary_aplly__pay .sap_right span {
+    font-weight: 500;
+    margin-right: 5px;
+}
+.summary_aplly__pay .sap_right .extra_butooon_div {
+    display: inline-block;
+    width: 280px;
+}
+.summary_aplly__pay .sap_right .extra_butooon_div p {
+    font-weight: 600;
+}
+.payment_summary__page .summary_aplly__pay h6 {
+    color: #000;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.summary_bottom__sec .sbs_left {
+    background-color: #F8F8F8;
+    padding: 15px;
+    height: 95px;
+    border-radius: 10px;
+}
+.summary_bottom__sec .sbs_left h6 {
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: #000;
+}
+.summary_bottom__sec .sbs_left form {
+    display: flex;
+}
+.summary_bottom__sec .sbs_left input {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px #E8E8E8;
+    padding: 0 10px;
+    outline: solid 1px #E8E8E8;
+}
+.summary_bottom__sec .sbs_left button {
+    width: 30%;
+    border: none;
+    background-color: #254254;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.sbs_right .sbs_right__one span, .sbs_right .sbs_right__one b {
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.sbs_right .sbs_right__one span {
+    text-align: right;
+    padding-right: 10px;
+}
+.sbs_right .sbs_right__one b {
+    text-align: left;
+    padding-left: 10px;
+}
+.sbs_right .sbs_right__one .mobile_yes b {
+    display: block;
+    padding: 0 0 3px;
+    text-align: right;
+}
+.sbs_right .sbs_right__one .mobile_yes span {
+    display: block;
+    padding: 3px 0 0;
+    text-align: left;
+}
+.sbs_right .sbs_right__two a {
+    padding: 12px 60px;
+    background-color: #254254;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.summary_bottom__sec .sbs_right .sbs_right__one {
+    width: 91%;
+    margin: auto;
+} 
+.sbs_right .sbs_right__two a:hover {
+    color: #ffff;
+}
+/* Select time 1 */
+.select_time__onepage {
+    background-color: #E8E8E8;
+}
+.stp__paider {
+    padding: 30px 30px 10px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+.select_time__onepage .calender_week__ulmaster ul li {
+    color: #999999;
+    padding: 5px 0;
+}
+.select_time__onepage .calender_week__ulmaster ul li:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+.all_sectime__absolute::after {
+    display: none;
+}
+.select_time__onepage .all_sectime__absolute {
+    width: calc(100% + 2px);
+    position: absolute;
+    text-align: center;
+    left: calc(0px - 2px);
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 5;
+    border-radius: 5px;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.sec_time__active {
+    color: #000 !important;
+}
+.sec_time__relat {
+    position: relative;
+}
+.sec_time__booked {
+    border: solid 1px #FF6E6E; 
+    background-color: #FFF0F0; 
+    color: #FF6E6E;
+}
+.sec_time__onhold {
+    border: solid 1px #FAA61A;
+    background-color: #FFF8ED;
+    color: #FAA61A;
+} 
+.sec_time__youbooking {
+    border: solid 1px #009CFF;
+    background: #E5F5FF;
+    color: #009CFF;
+}
+.sec_time__color {
+    border-left: solid 1px #009CFF;
+    border-right: solid 1px #009CFF;
+    background: #E5F5FF;
+    color: #009CFF;
+}
+.select_time__twopage .payment_right_top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.select_time__twopage .payment_right_top span {
+    color: #000;
+    opacity: .4;
+    font-size: 12px;
+}
+.select_time__twopage .payment_right_top a {
+    color: #000;
+    font-weight: bold;
+}
+.selectdate_ul__master h6 {
+    font-weight: bold;
+}
+.selectdate_ul__master ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.selectdate_ul__master ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 1px #E8E8E8;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.select_time__threepage .stp__paider {
+    padding-bottom: 0;
+}
+.selectdate_ul__master .unactive_ul__master h6, .selectdate_ul__master .unactive_ul li span {
+    opacity: .4;
+}
+.selectdate_ul__master .active_ul__master h6, .selectdate_ul__master .active_ul li span {
+    opacity: 1;
+}
+.sec_time__datebooked {
+    border: solid 1px #FF6E6E !important; 
+    background-color: #FFF0F0; 
+}
+.sec_time__datebooked p, .sec_time__dateonhold p, .sec_time__datebooking p {
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: .4;
+    font-weight: 500;
+}
+.sec_time__dateonhold {
+    border: solid 1px #FAA61A !important;
+    background-color: #FFF8ED;
+}
+.sec_time__datebooking {
+    border: solid 1px #009CFF !important;
+    background: #E5F5FF;
+}
+.sec_time__dateselect {
+    border: solid 1px #009CFF !important;
+}

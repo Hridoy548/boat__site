@@ -1,0 +1,1277 @@
+@media only screen and (max-width: 767px) {
+    /* Login Page */
+    .logreg_img .logreg_main__img .white_logo {
+        position: static;
+    }
+    .login_cover_img, .logreg_img {
+        padding: 20px 0;
+        border-bottom: solid 1px #E8E8E8;
+    }
+    .logreg_form__setion.for_login__page {
+        height: calc(100vh - 72px);
+        display: flex;
+        align-items: center;
+    }
+    /*  Bote Owner Home Page */
+    .row.bote_home__mrow {
+        flex-direction: column-reverse;
+    }
+    .logreg_img.logreg_boatowner__home {
+        position: relative;
+    }
+    .mobile_navbar i {
+        font-size: 26px;
+        color: #254254;
+        margin-right: 0;
+        cursor: pointer;
+    }
+    #nav_icon__deactive {
+        display: none;
+    }
+    .disper-n {
+        display: block !important;
+    }
+    .disper-nd {
+        display: none !important;
+    }
+    .bg_mobhead__colortak {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.4);;
+        left: -100%;
+        height: calc(100vh - 71px);
+        top: 71px;
+        z-index: 5;
+        overflow: auto;
+        transition: .5s;
+        width: 100%;
+    }
+    .lefter {
+        left: 0 !important;
+        transition: .7s !important;
+    }
+    .mboile__main__nav {
+        background-color: #fff;
+        position: absolute;
+        border-top: solid 1px #E8E8E8;
+        padding: 30px 10px;
+        height: calc(100vh - 71px);
+        right: 0;
+    }
+    .mboile__main__nav div img {
+        width: 72px;
+        margin-bottom: 20px;
+    }
+    .mboile__main__nav div p {
+        font-weight: 500;
+        color: #000000;
+        opacity: 0.6;
+    }
+    .mboile__main__nav div h4 {
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .mboile__main__nav ul li {
+        list-style: none;
+    }
+    .mboile__main__nav ul li a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 8px;
+        color: #000000;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .mboile__main__nav ul li a:hover {
+        background-color: #E9ECEE;
+        color: #254254;
+    }
+    .mobile_header__logouter {
+        border-top: solid 2px #E8E8E8;
+        padding: 20px 0 0 15px;
+        margin-top: 20px;
+    }
+    .mobile_header__logouter a {
+        text-decoration: none;
+        color: #FF6E6E;
+        font-weight: 700;
+    }
+    .mobile_header__logouter a:hover {
+        color: #FF6E6E;
+    }
+    /* Boat Owner Profile Page */
+    .profile_bottom .bootist a {
+        width: 50%;
+        padding: 12px 0;
+        text-align: center;
+    }
+    /* Prfile Boat List */
+    .bootlist_margin {
+        margin-right: 0;
+    }
+    .bootlist_margin_center {
+        margin: 0;
+    }
+    .bootlist_margin__left {
+        margin-left: 0;
+    }
+    .main_header .header_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .main_header .header_container .ste_logo {
+        width: unset;
+    }
+    .main_header .checkbtn {
+        margin-top: 0;
+    }
+    .main_header .site_header {
+        width: 30%;
+    }
+    .main_header .site_navbar {
+        width: 70%;
+    }
+    .main_header .site_navbar {
+        position: static;
+    }
+    .main_header .selec_for__alloption {
+        float: right;
+    }
+    .main_header .flc_absolute span {
+        padding: 0 5px;
+    }
+    .main_header .site_navbar::after {
+        display: none;
+    }
+    .main_header .site_navbar ul {
+        width: 100%;
+    } 
+    .main_header .flc_absolute {
+        justify-content: center;
+        background-color: #F8F8F8;
+    }
+    .profile__top {
+        padding-top: 0;
+    }
+    .bootlist_margin__row .bootlist_last__bottom {
+        padding: 0 20px;
+    }
+    .bootlist_margin, .bootlist_margin_center, .bootlist_margin__left {
+        margin: 0 0 30px;
+    }
+    .all_pending__master .pending_middle {
+        padding-left: 0;
+    }
+    .multiple_books .multiple_act__boss::after {
+        display: none;
+    }
+    .for_box_shadow {
+        padding: 20px;
+    }
+    .calender_weak .calander_top_menus .col-md-12:nth-child(1), .calender_weak .calander_top_menus .col-md-12:nth-child(2) {
+        margin-bottom: 15px;
+    }
+    .bote_home__maincontent h2 {
+        width: 100%;
+    }
+    .bote_home__maincontent p {
+        width: 100%;
+    }
+    .multiple_img img {
+        width: 100%;
+    }
+    /* Calender */
+    .calender_main {
+        padding: 20px 0;
+    }
+    .calender_main__accepter {
+        padding: 20px 0 0 !important;
+    }
+    .calender_main .weekdays {
+        display: flex;
+        justify-content: space-between;
+        margin: 35px 0 20px;
+    }
+    .calender_main .weekdays li {
+        font-weight: 600;
+        width: 30px;
+        text-align: left;
+    }
+    .calender_main .days {
+        display: flex;
+        justify-content: space-between;
+        height: 0;
+        visibility: hidden;
+    }
+    .real_height__tacker {
+        height: 48px !important;
+        visibility: visible !important;
+    }
+    .calender_main .days.real_day_serial {
+        height: 48px;
+        visibility: visible;
+    }
+    .calender_main .days.real_day_serial li {
+        height: 40px;
+    }
+    .calender_main .days li {
+        border: none;
+        height: 48px;
+        width: 30px;
+        font-weight: 500;
+        text-align: center;
+        padding: 0;
+    }
+    .for_mobile__caloslkd {
+        margin-top: 0 !important;
+    }
+    .calender_main .days .day_left {
+        color: #000000;
+        opacity: 0.4;
+    }
+    .calender_main .days .today_day {
+        position: relative;
+        color: #fff;
+    }
+    .calender_main .days .today_day::after {        
+        position: absolute;
+        left: -1px;
+        top: -3.5px;
+        background-color: #254254;
+        content: "";
+        border-radius: 50%;
+        height: 32px;
+        width: 32px;
+        z-index: -1;
+    }
+    .calender_main .days .onday {
+        color: #000;
+    }
+    .booking_mobile button {
+        outline: none;
+        border: none;
+        background: none;
+        width: calc(100% - 50px);
+        margin-top: 10px;
+    }
+    .booking_mobile button a {
+        padding: 6.5px 0;
+        font-weight: 700;
+        border-radius: 8px;
+        outline: solid 1px #E8E8E8;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        color: #000;
+        text-decoration: none;
+    }
+    .second_i__bok {
+        text-decoration: none;
+        color: #000000;
+        height: 36px;
+        width: 36px;
+        border-radius: 8px;
+        outline: solid 1px #E8E8E8;
+        font-weight: 700;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .calender_bottom__area button {
+        border: none;
+        background: #fff;
+        color: #254254;
+        font-weight: 600;
+        margin: 16px 0;
+    }
+    #lesser_more {
+        display: none;
+    }
+    .calender_bottom__area button span {
+        padding-left: 5px;
+    }
+    .calender_botom__dtname {
+        background: #F8F8F8;
+        padding: 14px 0;
+    }
+    .calender_botom__dtname.first_dt {
+        border-top: solid 1px #E8E8E8;
+    }
+    .calender_botom__dtname h4 {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .calender_bottom__boat a {
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+        padding: 20px 0;
+        border-bottom: solid 1px #E8E8E8;
+    }
+    .calender_bottom__boat a.last_attacker {
+        border: none;
+    }
+    .calender_bottom__boat a:hover {
+        color: #000;
+    }
+    .calender_bottom__boat a h4 {
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .calender_bottom__boat a p {
+        font-weight: 500;
+        color: #000000;
+        opacity: .8;
+    }
+    .calender_bottom__boat a h3 {
+        padding: 20px 0;
+        font-size: 18px;
+        color: #000000;
+        opacity: 0.6;
+    }
+    /* Multiple pages teree */
+    .mulitple_books_maingall {
+        margin: 20px 0 0;
+        color: #000;
+    }
+    .mulitple_books_maingall .multiple_act__boss2 {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .backeto_calender {
+        font-weight: bold;
+        color: #000;
+        font-size: 14px;
+        text-decoration: none;
+        margin-bottom: 15px;
+    }
+    .backeto_calender:hover {
+        color: #000;
+    }
+    .backeto_calender i {
+        padding-right: 8px;
+    }
+    .multiple_cont .multiple_cont1 h4 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .multiple_books .multiple_cont1 span {
+        font-weight: 600;
+    }
+    .multiple_cont2 h5 span {
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .multiple_cont3 h4 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .multiple_cont2 {
+        border-bottom: none;
+    }
+    .multiple_button {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .aboutextra_hight {
+        margin-bottom: 73px;
+    }
+    .aboutextra_hight.extra {
+        margin-bottom: 0;
+    }
+    /* Manage Selseman Page */
+    .manage_salesmen__main {
+        margin: 25px 0;
+        color: #000;
+    }
+    .manage_sales__header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .manage_sales__header a {
+        text-align: center;
+        border-radius: 8px;
+    }
+    .new_salesmanadd__pop1.new_selseman___adder,  .new_salesmanadd__pop1.add_booking_page {
+        position: static;
+        height: unset;
+        background-color: #fff;
+        visibility: visible;
+        color: #000;
+        width: unset;
+    }
+    .new_salesmanadd__pop1.new_selseman___adder h4 {
+        font-weight: 700;
+    }
+    .new_salesmanadd__pop1.new_selseman___adder .new_sad__pop1cont .for_box_shadow, .new_salesmanadd__pop1.new_selseman___discriber .new_sad__pop1cont .for_box_shadow,  .new_salesmanadd__pop1.add_booking_page .for_box_shadow  {
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+    }
+    .new_salesmanadd__pop1.new_selseman___adder .new_book__button button {
+        position: fixed;
+        bottom: 25px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }  
+    .new_salesmanadd__pop1.new_selseman___adder .new_book__button button a {
+        display: inline-block;
+    }
+    .manage_salesmen__main.new_selseman___page {
+        margin: 20px 0 25px;
+    } 
+    .new_salesmanadd__pop1.new_selseman___discriber {
+        visibility: visible;
+        background-color: #fff;
+        height: calc(100vh - 71px);
+        top: 71px;
+        z-index: 3;
+    }
+    .new_salesmanadd__pop1.new_selseman___discriber h4 {
+        font-weight: 700;
+    }
+    /* Agent Home Page */
+    .bote_home__maincontent.for_extra .row div {
+        margin: auto;
+    }
+    /* Payment Summarey Page Start */
+    .payment_summary__page .ps_celltwo__middle {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .payment_people__charter .for_text_center {
+        text-align: center;
+    }
+    .payment_summary__page .bookingSummary {
+        flex-direction: column;
+    }
+    .payment_summary__page .summary_aplly__pay .sap_right  span {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .boat_dtdescri__box .boat_details__right {
+        display: block;
+    }
+    .boat_sp_spaner:nth-child(odd):after {
+        width: 100%;
+    }
+    .boat_sp_spaner:nth-child(even):after {
+        width: 100%;
+    }
+    .boat_details__question .bd_question__div .question p {
+        width: 80%;
+    }
+    .sec_time__select {
+        width: calc(200% + 2px) !important;
+    }
+    .select_time__onepage .all_sectime__absolute {
+        width: calc(170% + 2px);
+    }
+}
+
+/* Extra Calender Weak */
+@media only screen and (min-width: 300px) {
+    .boat_details__bosstwo {
+        padding: 20px;
+    }
+    .prop_center .col-2 {
+        width: 65px !important;
+    } 
+    .prop_center .col-10 {
+        width: calc(100% - 65px) !important;
+    } 
+    .chang1 {
+        margin-right: 12px;
+    }
+}
+@media only screen and (max-width: 363px) {
+    .calender_week__ulmaster ul li {
+        font-size: 14px;
+    }
+    .summary_aplly__pay .sap_right .extra_butooon_div {
+        width: 255px;
+    }
+}
+@media only screen and (min-width: 364px) {
+    .calender_week__ulmaster ul {
+        font-size: 15px;
+    }
+    .summary_aplly__pay .sap_right .extra_butooon_div {
+        width: 280px;
+    }
+}
+@media only screen and (min-width: 390px) {
+    .calender_week__ulmaster ul {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 416px) {
+    .calender_week__ulmaster ul {
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width: 442px) {
+    .calender_week__ulmaster ul {
+        font-size: 18px;
+    }
+    .boat_details__bosstwo {
+        padding: 30px;
+    }
+    .prop_center .col-2 {
+        width: 16.66666667% !important;
+    } 
+    .prop_center .col-10 {
+        width: 83.33333333% !important;
+    } 
+    .chang1 {
+        margin-right: 15px;
+    }
+}
+@media only screen and (min-width: 468px) {
+    .calender_week__ulmaster ul {
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 494px) {
+    .calender_week__ulmaster ul {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 494px) {
+    .calender_week__ulmaster ul:nth-child(2) li, .calender_week__ulmaster ul:nth-child(3) li, .calender_week__ulmaster ul:nth-child(4) li, .calender_week__ulmaster ul:nth-child(5) li, .calender_week__ulmaster ul:nth-child(6) li, .calender_week__ulmaster ul:nth-child(7) li, .calender_week__ulmaster ul:nth-child(8) li  {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .calender_week__ulmaster ul:nth-child(2) li, .calender_week__ulmaster ul:nth-child(3) li, .calender_week__ulmaster ul:nth-child(4) li, .calender_week__ulmaster ul:nth-child(5) li, .calender_week__ulmaster ul:nth-child(6) li, .calender_week__ulmaster ul:nth-child(7) li, .calender_week__ulmaster ul:nth-child(8) li  {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .calender_week__ulmaster ul {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .calender_week__ulmaster ul {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 368px) {
+    .pop_2__button .pop_two___but1  {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .pop_2__button .pop_two___but2 {
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 575px)  {
+    .logreg_img .logreg_main__img img {
+        width: 120px;
+    }
+    .header_button.bote_oome__button button {
+        width: 100%;
+    }
+    .logreg_img .logreg_main__img .white_logo {
+        width: 120px;
+    }
+    .main_header .site_navbar ul {
+        top: 14%;
+    } 
+    .file_ancor a {
+        font-size: 12px;
+    }
+    .bote_home .bote_home__mrow {
+        justify-content: center;
+    }
+    .bote_home__maincontent {
+        text-align: center;
+    }
+    .header_button .btn1 {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .header_container .ste_logo {
+        width: 35%;
+    } 
+    .header_container .ste_logo img {
+        width: 120px;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .site_navbar ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 55px;
+        left: -100%;
+        transition: all .5s;
+        padding-left: 0;
+        display: block !important;
+    }
+    .site_navbar ul li {
+        display: block;
+        padding-right: 0 !important;
+        text-align: center;
+        padding: 10px 0;
+        background-color: #f8f8f8;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    .mboile__main__nav {
+        width: 257px;
+    }
+    .manage_sales__header {
+        flex-direction: column;
+    }
+    .profile_owner {
+        justify-content: center;
+    }
+    .owner_id {
+        text-align: center;
+        padding: 5px;
+    }
+    .profile_main_sec {
+        height: 60px;
+    }
+    .porf_details .prof_cot_detainls span:nth-child(1) {
+        margin-bottom: 5px;
+    }
+    .profile_main_sec img {
+        width: 90px;
+        height: 90px;
+        bottom: 45px;
+    }
+    .prof_cot_detainls span {
+        display: block;
+    }
+    .profile_bottom .bootist_op {
+        margin: 15px 0;
+    }
+    .bootist_op {
+        flex-direction: column-reverse;
+    }
+    .profile_bottom .bootist_op a {
+        display: block;
+        text-align: center;
+    }
+    .add_boat__boss {
+        margin-bottom: 10px;
+    }
+    .book_pending_buttons {
+        padding: 20px 0 5px;
+    }
+    .book_pending_buttons a {
+        margin-bottom: 15px;
+    }
+    .all_pending__master img {
+        width: 60%;
+    }
+    .all_pending__master .pending_right__cont {
+        float: left;
+    }
+    .all_pending__master .pending_button a {
+        width: calc(50% - 4px);
+        text-align: center;
+        padding: 5px 0;
+    }
+    .pending_right__cont div {
+        text-align: left;
+    }
+    .edit_profbut__button button {
+        padding: 5px 0;
+        width: calc(50% - 4px);
+        margin: 0;
+        text-align: center;
+    }
+    /*calander main */
+    .calander_top_menu .col-md-12:nth-child(1), .calander_top_menu .col-md-12:nth-child(2) {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .multiple_act__boss2 img {
+        width: 60%;
+        border-radius: 8px;
+    }
+    .multiple_books .multiple_button a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .calender_week__ulmaster ul li span {
+        display: block;
+    }
+    .extra_design__mainsechelp {
+        left: 0;
+        top: unset;
+    }
+    .calender_week__ulmaster .cw_first_postionul, .calender_week__ulmaster .cw_second_postionul {
+        left: 192%;
+    }
+    .calender_week__ulmaster .cw_main_ul3 .cw_third_postionul {
+        width: 200%;
+        height: 150px;
+        top: 34%; 
+    }
+    .calender_day__ulmaster .calander_day_mainul .calander_day_pose1 {
+        flex-direction: column;
+        width: 78%;
+    }
+    .calender_day__ulmaster .calander_day_mainul .calander_day_pose1 li {
+        height: unset;
+        width: 100%;
+        padding: 5px;
+    }
+    .calander_day_mainul .calander_day_pose1 li:nth-child(1) {
+        border-right: solid 1px #009CFF;
+        border-bottom: none;
+    }
+    .calander_day_mainul .calander_day_pose1 li:nth-child(2) {
+        border-right: 1px solid #C7A859;
+        border-bottom: none;
+    }
+    .calander_day_mainul .calander_day_pose1 li:nth-child(3) {
+        border-right: 1px solid #D781FF;
+        border-bottom: none;
+    }
+    .calander_day_mainul .calander_day_pose1 li:nth-child(4) {
+        border-right: 1px solid #FF9C41;
+        border-bottom: none;
+    }
+    .calender_day__ulmaster .calander_day_mainul .calander_day_pose1 li h4, .calender_day__ulmaster .calander_day_mainul .calander_day_pose1 li p {
+        margin-bottom: 0 !important;
+    }
+    .calander_day_mainul .calander_day_pose2 {
+        width: 78%;
+        top: 66%;
+    }
+    .new_salesmanadd__pop1.add_booking_page .new_book__button button, .edit_btn2 a {
+        width: 100%;
+    }
+    .multiple_button a {
+        width: calc(50% - 5px);
+    }
+    .manage_sales__header a {
+        width: 100%;
+    }
+    .new_salesmanadd__pop1.new_selseman___adder .new_book__button button a {
+        width: 83.33333333%;;
+    }
+    /* Boat Home 2 Stat */
+    .searchSection .searchBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .searchSection .searchBar div {
+        width: 100%;
+    }
+    .searchSection .searchBar div:nth-child(1) {
+        width: 100%; 
+        border: none;
+    }
+    .searchSection .searchBar div:nth-child(2) h3, .searchSection .searchBar div:nth-child(3) h3 {
+        margin: 0 0 10px 0;
+    }
+    .messageAndCancel {
+        flex-direction: column;
+    }
+    .my_booking_page .heading {
+        flex-direction: column;
+    }
+    .payment_confirmation__page .mainFormContentSection {
+        padding: 15px
+    }
+    .payment_confirmation__page .logreg_form__setion .file_upload__input {
+        width: 100%;
+    }
+    .payment_confirmation__page .file_uploader .file_icon {
+        width: 30%;
+    }
+    .payment_confirmation__page .file_uploader .file_ancor {
+        left: 42.2%;
+    }
+    .payment_content__container {
+        padding: 20px;
+    }
+    /* Payment Summarey Page Start */
+    .payment_summary__page .payment_left_top a {
+        font-size: 12px;
+    }
+    .payment_summary__page .mobile_none {
+        display: none;
+    }
+    .boat_details__right {
+        display: none;
+    }
+    .subimager1, .subimager2 {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 576px)  {
+    .logreg_img .logreg_main__img img {
+        width: 120px;
+    }
+    .main_header .site_navbar ul {
+        top: 15.25%;
+    } 
+    .file_ancor a {
+        font-size: 16px;
+    }
+    .bote_home .bote_home__mrow {
+        justify-content: center;
+    }
+    .bote_home__maincontent {
+        text-align: center;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .site_navbar ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 60px;
+        left: -100%;
+        transition: all .5s;
+        padding-left: 0;
+        display: block !important;
+    }
+    .site_navbar ul li {
+        display: block;
+        padding-right: 0 !important;
+        text-align: center;
+        padding: 10px 0;
+        background-color: #f8f8f8;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    .mboile__main__nav {
+        width: 290px;
+    }
+    .all_pending__master img {
+        width: 50%;
+    }
+    .profile_pic {
+        width: 80px;
+    }
+    /*calander main */
+    .calander_top_menu .col-md-12:nth-child(1), .calander_top_menu .col-md-12:nth-child(2) {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .calender_week__ulmaster ul {
+        width: 12.5%;
+    }
+    .calender_week__ulmaster ul:nth-child(1) {
+        width: 12.5%;
+    }
+    .extra_li span:nth-child(1) {
+        display: block;
+    }
+    .calender_week__ulmaster .cw_main_ul3 .cw_third_postionul {
+        width: 200%;
+    }
+    .calender_day__ulmaster .calander_day_mainul .calander_day_pose1, .calander_day_mainul .calander_day_pose2 {
+        width: 86%;
+    }
+    .calander_day_mainul .calander_day_pose1 li:nth-child(4) {
+        height: 125px;
+    }
+    .calander_day_mainul .calander_day_pose1 li {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .multiple_act__boss2 img {
+        width: 50%;
+        border-radius: 8px;
+    }
+    .multiple_button a {
+        width: calc(50% - 7px);
+    }
+    .manage_sales__header a {
+        width: 50%;
+        margin: auto;
+    }
+    .new_salesmanadd__pop1.new_selseman___adder .new_book__button button a {
+        width: 35%;
+    }
+    /* Boat Home 2 Stat */
+    .searchSection .searchBar div:nth-child(2) h3, .searchSection .searchBar div:nth-child(3) h3 {
+        width: 60%;
+        margin: auto;
+    }
+    .payment_confirmation__page .file_uploader .file_icon {
+        width: 20%;
+        left: 4%;
+    }
+    .payment_summary__page .mobile_yes {
+        display: none;
+    }
+    .boat_details__right {
+        display: none;
+    }
+    .subimager1 {
+        padding-bottom: .5rem;
+    }
+    .subimager2 {
+        padding-top: .5rem;
+    }
+    .select_time__onepage .calender_week__ulmaster ul li:nth-child(1) {
+        width: 72%;
+        margin: auto;
+    }
+    .select_time__onepage .calender_week__ulmaster ul:nth-child(1) li:nth-child(1) span {
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px)  {
+    .logreg_img .logreg_main__img img {
+        width: 100%;
+    }
+    .bote_home__maincontent h2 {
+        width: 100%;
+    }
+    .bote_home__maincontent p {
+        width: 100%;
+    }
+    .main_header .checkbtn {
+        margin-top: 0;
+        padding-left: 21%;
+    }
+    .main_header .site_navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: static;
+    }
+    .flc_absolute span {
+        padding: 0 5px;
+    }
+    .main_header .site_navbar::after {
+        display: none;
+    }
+    .main_header .site_navbar ul {
+        width: 100%;
+        top: 93px;
+    } 
+    .main_header .flc_absolute {
+        justify-content: center;
+        background-color: #F8F8F8;
+    }
+    .bote_home .bote_home__mrow {
+        justify-content: flex-end;
+    }
+    .bote_home__left {
+        height: 100%;
+    }
+    .bote_home__maincontent {
+        text-align: left;
+    }
+    .bote_home__left {
+        padding-right: 20px;
+    }
+    .site_navbar ul {
+        width: 58%;
+        top: 93px;
+    } 
+    /* Prfile Boat List */
+    .bootlist_margin, .bootlist_margin_center, .bootlist_margin__left {
+        margin: 0 0 30px;
+    }
+    .all_pending__master .pending_middle {
+        padding-left: 0;
+    }
+    .all_pending__master img {
+        width: 100%;
+    }
+    /*calander main */
+    .calender_main .days li {
+        height: 100px;
+    }
+    .calander_top_menu .col-md-12:nth-child(1), .calander_top_menu .col-md-12:nth-child(2) {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    /* caleander weak */
+    .calender_week__ulmaster ul li:nth-child(1) {
+        width: 82%;
+        margin: auto;
+    }
+    .calender_week__ulmaster .extra_li span:nth-child(1) {
+        display: block;
+    }
+    .calender_weak .calander_top_menus .col-md-12:nth-child(1), .calender_weak .calander_top_menus .col-md-12:nth-child(2) {
+        margin-bottom: 15px;
+    }
+    .calender_week__ulmaster .cw_main_ul3 .cw_third_postionul {
+        width: 100%;
+    }
+    .calender_day__ulmaster .calander_day_mainul .calander_day_pose1, .calander_day_mainul .calander_day_pose2 {
+        width: 88%;
+    }
+    .calander_day_mainul .calander_day_pose1 li:nth-child(4) {
+        height: 120px;
+    }
+    .calander_day_mainul .calander_day_pose1 li {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .multiple_books .onlyfor_multiplebox_padding {
+        padding: 20px 0 20px 20px;
+    }
+    .multiple_img img {
+        width: 50%;
+    }
+    .manage_sales__header a {
+        width: unset;
+        margin: 0;
+    }
+    /* Boat Home 2 Stat */
+    .searchSection .searchBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .searchSection .searchBar div {
+        width: 100%;
+    }
+    .searchSection .searchBar div:nth-child(1) {
+        width: 100%; 
+        border: none;
+    }
+    .searchSection .searchBar div:nth-child(2) h3, .searchSection .searchBar div:nth-child(3) h3 {
+        margin: 0 0 10px 0;
+    }
+    /* Main header 2 */
+    .main_headertwo .selec_for__alloption {
+        width: 360px;
+    }
+    /* Admin Panel Home Page */
+    .admin_panel_extramargin {
+        margin-bottom: 0;
+    }
+    .bote_home_two .bote_home__maincontent h2 {
+        margin-top: 25px;
+    }
+    .boat_details__right {
+        display: none;
+    }
+    .boat_dtdescri__box .boat_details__right {
+        display: block;
+    }
+    .select_time__onepage .calender_week__ulmaster ul li:nth-child(1) {
+        width: 85%;
+    }
+    .select_time__onepage .calender_week__ulmaster ul:nth-child(1) li:nth-child(1) span:nth-child(2), .select_time__onepage .calender_week__ulmaster ul:nth-child(1) li:nth-child(1) span:nth-child(3) {
+        display: inline-block;
+    }
+    .sec_time__select {
+        width: calc(150% + 2px) !important;
+    }
+}
+@media only screen and (min-width: 992px)  {
+    .main_header .extra_design__mainsechelp {
+        width: 100%;
+        left: 0 !important;
+    }
+    .flc_absolute span {
+        padding: 0;
+    }
+    .main_header .flc_absolute  {
+        justify-content: space-between;
+        background-color: #fff !important;
+    }
+    .flc_absolute span {
+        padding: 0 5px;
+    }
+    .main_header .site_navbar {
+        display: block;
+        position: relative;
+    }
+    .main_header .site_navbar::after {
+        display: block;
+    }
+    .main_header .site_navbar ul li {
+        padding: 0 30px 0 0 !important;
+    }
+    .main_header .selec_for__alloption {
+        margin-left: 20px;
+    }
+    .file_ancor a {
+        font-size: 12px;
+    }
+    .checkbtn {
+        display: none;
+    }
+    .site_navbar ul {
+        position: static !important;
+        display: flex !important;
+        width: unset;
+        height: unset;
+    }
+    .site_navbar ul li {
+        display: unset;
+        padding: 0 50px 0 0 !important;
+        text-align: right;
+        background: none;
+    }
+    .double_row .col-lg-5 {
+        width: 49% !important;
+    }
+    /*calander main */
+    .calender_main .days li {
+        height: 140px;
+    }
+    .calander_top_menu .col-md-12:nth-child(1), .calander_top_menu .col-md-12:nth-child(2) {
+        text-align: unset;
+        margin-bottom: 0;
+    }
+    /* caleander weak */
+    .extra_li span:nth-child(1) {
+        display: inline-block;
+    }
+    .calender_weak .calander_top_menus .col-md-12:nth-child(1), .calender_weak .calander_top_menus .col-md-12:nth-child(2) {
+        margin-bottom: 0;
+    }
+    .calender_week__ulmaster ul li:nth-child(1) {
+        width: 75%;
+        margin: auto;
+    }
+    .calender_day__ulmaster .calander_day_mainul .calander_day_pose1, .calander_day_mainul .calander_day_pose2 {
+        width: 90%;
+    }
+    .calander_day_mainul .calander_day_pose1 li:nth-child(4) {
+        height: 108px;
+    }
+    /* Boat Home 2 Stat */
+    .bote_home_two .site_navbar ul li {
+        padding-right: 23px !important;
+    }
+    .searchSection .searchBar div:nth-child(2) h3, .searchSection .searchBar div:nth-child(3) h3 {
+        width: 60%;
+        margin: unset;
+    }
+    .searchSection .searchBar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+    .searchSection .searchBar div {
+        width: 24%;
+    }
+    .searchSection .searchBar div:nth-child(1) {
+        width: 26%; 
+        border-right: solid 2px #E8E8E8;
+    }
+    /* Main header 2 */
+    .main_headertwo .site_navbar ul li {
+        padding-right: 33px;
+    }
+    .main_headertwo .selec_for__alloption {
+        width: 260px;
+    }
+    .admin_panel_extramargin {
+        margin-bottom: 5rem;
+    }
+    .admin_panel .bote_home__maincontent h2 {
+        margin-top: 0;
+    }
+    .boat_details__right {
+        display: none;
+    }
+    .boat_dtdescri__box .boat_details__right {
+        display: block;
+    }
+    .baot_details_revtop {
+        text-align: right;
+    }
+    .select_time__onepage .calender_week__ulmaster ul li:nth-child(1) {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1200px)  {
+    .file_ancor a {
+        font-size: 16px;
+    }
+    .main_header .site_navbar ul li {
+        padding: 0 50px 0 0 !important;
+    }
+    .main_header .selec_for__alloption {
+        margin-left: 0;
+    }
+    .bootlist_margin {
+        margin-right: 6%;
+    }
+    .bootlist_margin_center {
+        margin: 0 3%;
+    }
+    .bootlist_margin__left {
+        margin-left: 6%;
+    }
+    .all_pending__master .pending_middle {
+        padding-left: 20px;
+    }
+    .calender_week__ulmaster ul li:nth-child(1) {
+        width: 100%;
+        margin: unset;
+    }
+    .calender_week__ulmaster .extra_li span:nth-child(1) {
+        display: inline-block;
+    }
+    .calender_day__ulmaster .calander_day_mainul .calander_day_pose1, .calander_day_mainul .calander_day_pose2 {
+        width: 92%;
+    }
+    /* Boat Home 2 Stat */
+    .bote_home_two .site_navbar ul li {
+        padding-right: 50px !important;
+    }
+    .searchSection .searchBar div:nth-child(2) h3, .searchSection .searchBar div:nth-child(3) h3 {
+        width: 100%;
+    }
+    /* Main header 2 */
+    .main_headertwo .site_navbar ul li {
+        padding-right: 50px;
+    }
+    .boat_details__right {
+        display: block;
+    }
+    .boat_dtdescri__box .boat_details__right {
+        display: none;
+    }
+    .select_time__onepage .calender_week__ulmaster ul li:nth-child(1) {
+        width: 100%;
+    }
+    .select_time__onepage .calender_week__ulmaster ul:nth-child(1) li:nth-child(1) span {
+        display: inline-block;
+    }
+    .sec_time__select {
+        width: calc(100% + 2px) !important;
+    }
+}
+@media only screen and (min-width: 1300px)  {
+    .login_cover_img .logreg_main__img img:nth-child(1) {
+        height: 100vh;
+        width: unset;
+    }
+}
+@media only screen and (min-width: 768px)  {
+    .extra_design__mainsec {
+        padding: 0 10px;
+    }
+}

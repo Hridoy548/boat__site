@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Edit Profile</title>
+</head>
+<body>
+    <!-- Header Area Start -->
+    <div class="row mt-3 mb-2 main_header d-md-block d-none">
+      <div class="col-11 margin_auto">
+        <div class="header_container">
+          <div class="site_header">
+            <div class="ste_logo">
+              <img src="img/logo.png" alt="">
+            </div>
+          </div>
+          <div class="site_navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+              <li><a href="9. calender_month.html">Calender</a></li>
+              <li><a href="#">Message</a></li>
+              <li><a href="10.notificationowner.html">Notification</a></li>
+              <li>
+                <div class="for_language__choose">
+                  <select>
+                    <option>AED</option>
+                  </select>
+                  <div class="flc_absolute"><img src="img/🇦🇪.png" alt=""><span>AED</span><i
+                      class="fa-solid fa-caret-down"></i></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="selec_for__alloption">
+            <div class="extra_design__mainsec">
+              <img src="img/Rectangle  166.png" alt="">
+              <div class="edm_content">
+                <p>Logged in as Owner</p>
+                <h4>Wonders Boat</h4>
+              </div>
+              <span><i class="fa-solid fa-caret-down"></i></span>
+            </div>
+            <div class="extra_design__mainsechelp">
+              <a href="#">My Profile</a>
+              <a href="8. managesalesman.html">Manage Salesman</a>
+              <a href="1. login.html">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="d-md-block d-none">
+    <div class="sticker__header d-md-none">
+      <div class="logreg_img logreg_boatowner__home"> 
+        <div class="logreg_main__img col-sm-9 col-10 margin_auto d-flex justify-content-between d-md-none">
+            <img src="img/logo.png" alt="" class="mobile_logo">
+            <div class="mobile_navbar" onclick="hamburger()">
+                <i id="nav_icon__active" class="fas fa-bars"></i>
+                <i id="nav_icon__deactive" class="fa-solid fa-xmark"></i>
+            </div>
+        </div> 
+        <div class="bg_mobhead__colortak" id="checker_taker__first">
+            <div class="mboile__main__nav d-flex flex-column justify-content-between d-md-none" id="checker_taker__second">
+                <div>
+                    <div class="text-center">
+                        <img src="img/Ellipse 12.png" alt="profile_image">
+                        <p class="mb-1">Logged in as Owner</p>
+                        <h4>Wonder Boats</h4>
+                    </div>
+                    <ul class="m-0 p-0">
+                        <li><a href="5. boteownerhome.html">Home</a></li>
+                        <li><a href="9. calender_month.html">Calendar</a></li>
+                        <li><a href="#">Message</a></li>
+                        <li><a href="#">Notifications</a></li>
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="8. managesalesman.html">Manage Salesman</a></li>
+                    </ul>
+                </div>
+                <div class="mobile_header__logouter">
+                    <a href="1. login.html">Log Out</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Area Stop -->
+
+    <!-- Edit Profile Page Start -->
+    <div class="edit_prof__boss">
+        <div class="row">
+            <div class="col-lg-6 col-md-7 col-10 mt-4 margin_auto">
+                <div class="editprofile_area">
+                    <h4 class="mb-sm-2 mb-0">Edit Profile</h4>
+                    <label for="Banner">Banner</label>
+                    <div class="col-12 mb-2">
+                        <img src="img/Rectangle 163.jpg" alt="Image" class="profile_cover d-md-block d-none">
+                        <img src="img/Rectangle 163forphone.png" alt="Image" class="profile_cover d-block d-md-none" style="border-radius: 8px;">
+                    </div>
+                    <div class="chang_name mb-3">
+                         <a href="#" class="chang1">Change Image</a>
+                         <a href="#" class="chang2">Remove</a>
+                    </div>
+                    <div class="profile_area">
+                       <label for="Profile_Picture">Profile Picture</label>
+                       <div class="row prop_center">
+                           <div class="col-2 col-md-1">
+                               <div class="profile_pic mt-1">
+                                   <img src="img/Ellipse 12.png" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-6 col-10">
+                               <div class="chang_name change_name_prof">
+                                   <a href="#" class="chang1">Change Image</a>
+                                   <a href="#" class="chang2">Remove</a>
+                              </div>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="logreg_form__setion">
+                        <form action="6. profboatlist.html">
+                          <label for="company_name">COMPANY NAME</label>
+                          <input type="text">
+                          <label for="company_name">COMPANY NAME</label>
+                          <input type="text">
+                          <label for="email">EMAIL ADDRESS</label>
+                          <input type="email">
+                          <label for="Phone_Number">Phone Number</label>
+                          <input type="text">
+                          <label for="About">About</label>
+                          <textarea name="" id="" cols="30" rows="10" class="aboutextra_hight mb-0"></textarea>
+                          <div class="edit_profbut__button text-end mt-4 mb-4 d-flex d-sm-block justify-content-between">
+                            <button type="button" value="Discard">Discard</button>
+                            <button type="submit" value="">Save Changes</button>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <!-- Edit Profile Page Stop -->
+
+    <!-- JS -->
+    <script src="js/active.js"></script>
+    <script>
+      function hamburger() {
+            const navbarr = document.querySelector('.bg_mobhead__colortak');
+            navbarr.classList.toggle('lefter');
+            const navbarrr = document.querySelector('#nav_icon__deactive');
+            navbarrr.classList.toggle('disper-n');
+            const navbarrrr = document.querySelector('#nav_icon__active');
+            navbarrrr.classList.toggle('disper-nd');
+      };
+    </script>
+</body>
+</html>

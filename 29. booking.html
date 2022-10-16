@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script  src="../js/agent.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/agent.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Agent | My Booking</title>
+</head>
+<body>
+    <!-- Header Area Start -->
+    <div class="row mt-3 mb-2 main_header main_headertwo">
+        <div class="col-11 margin_auto">
+          <div class="header_container">
+            <div class="site_header">
+              <div class="ste_logo">
+                <img src="img/logo.png" alt="">
+              </div>
+            </div>
+            <div class="site_navbar">
+              <input type="checkbox" id="check">
+              <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+              </label>
+              <ul>
+                  <li><a href="#">My Booking</a></li>
+                  <li><a href="#">Search Boat</a></li>
+                  <li><a href="#">Message</a></li>
+                  <li><a href="16. agentnotification.html">Notification</a></li>
+              </ul>
+            </div>
+            <div class="selec_for__alloption">
+              <div class="extra_design__mainsec">
+                  <img src="img/profile1.png" alt="">
+                  <div class="edm_content">
+                      <p>Logged in as Agent</p>
+                      <h4>Jonathan Reeves</h4>
+                  </div>
+                  <span><i class="fa-solid fa-caret-down"></i></span>
+              </div>
+              <div class="extra_design__mainsechelp">
+                  <a href="#">My Booking</a>
+                  <a href="1. login.html" style="color: #FF6E6E;">Log Out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div><hr>
+    <!-- Header Area Stop -->
+    
+
+    <!-- Main Page Start -->
+    <div class="row my_booking_page mb-3">
+        <div class="col-md-9 col-sm-9 col-10 margin_auto">
+            <div class="heading mt-5">
+                <h4><b>My Booking</b></h4>
+                <form>
+                    <input type="text " class="form-control searchBox" placeholder="Search Booking" >
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </form>
+            </div>
+            <div class="content_box mt-4">
+                <div class="row confirm_container">
+                    <div class="row all_pending__master">
+                        <div class="col-lg-3">
+                          <img src="img/1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-5 pending_middle">
+                          <label for="nothing">Sales By Ali Ibrahim</label>
+                          <h2>36 Ft Yacht - Thunder</h2>
+                          <span>Fri, May 20 @ 2:00 - 3:00 (3h)</span>
+                          <p>+Jet Ski 1800cc</p>
+                        </div>
+                        <div class="col-lg-4 pending_rigt">
+                          <div class="pending_right__cont">
+                            <label for="nothing">Total</label>
+                            <h1>AED 3,575.71</h1>
+                            <div><a href="27. paymentConfirm.html" class="last_book_contanc">Confirm Payment</a></div>
+                          </div>
+                        </div>
+                        <div class="row last_booking_pendbootm">
+                            <div class="col-md-6 col-12">
+                                <i class="fa fa-circle text-warning" aria-hidden="true" style="padding-right:5px;"></i>
+                                <span class="verifiedAndMessage">
+                                    Waiting for Payment (24:58:12 left)
+                                </span>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="messageAndCancel text-end">
+                                    <a href="#"><span class="verifiedAndMessage"> Message Owner </span></a>
+                                    <a href="#"><span class="verifiedAndMessage"> Cancel Booking </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row all_pending__master">
+                        <div class="col-lg-3">
+                          <img src="img/2.jpg" alt="">
+                        </div>
+                        <div class="col-lg-5 pending_middle">
+                          <label for="nothing">Sales By Ali Ibrahim</label>
+                          <h2>36 Ft Yacht - Thunder</h2>
+                          <span>Fri, May 20 @ 2:00 - 3:00 (3h)</span>
+                          <p>+Jet Ski 1800cc</p>
+                        </div>
+                        <div class="col-lg-4 pending_rigt">
+                          <div class="pending_right__cont">
+                            <label for="nothing">Total</label>
+                            <h1>AED 3,575.71</h1>
+                          </div>
+                        </div>
+                        <div class="row last_booking_pendbootm">
+                            <div class="col-md-6 col-12">
+                                <i class="fa fa-circle" aria-hidden="true" style="color: #66D17B; padding-right:5px;"></i>
+                                <span class="verifiedAndMessage">
+                                    Waiting for Payment (24:58:12 left)
+                                </span>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="messageAndCancel text-end">
+                                    <a href="#"><span class="verifiedAndMessage"> Message Owner </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row all_pending__master">
+                        <div class="col-lg-3">
+                          <img src="img/3.jpg" alt="">
+                        </div>
+                        <div class="col-lg-5 pending_middle">
+                          <label for="nothing">Sales By Ali Ibrahim</label>
+                          <h2>36 Ft Yacht - Thunder</h2>
+                          <span>Fri, May 20 @ 2:00 - 3:00 (3h)</span>
+                          <p>+Jet Ski 1800cc</p>
+                        </div>
+                        <div class="col-lg-4 pending_rigt">
+                          <div class="pending_right__cont">
+                            <label for="nothing">Total</label>
+                            <h1>AED 3,575.71</h1>
+                          </div>
+                        </div>
+                        <div class="row last_booking_pendbootm">
+                            <div class="col-md-6 col-12">
+                                <i class="fa fa-circle" aria-hidden="true" style="color: #FF6E6E; padding-right:5px;"></i>
+                                <span class="verifiedAndMessage">
+                                    Cancelled by Owner
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var extra_design__mainsec = document.querySelector(".extra_design__mainsec");
+        var extra_design__mainsechelp = document.querySelector(".extra_design__mainsechelp");
+        
+        
+        extra_design__mainsec.onclick = ()=>{
+            extra_design__mainsechelp.classList.toggle("active");
+        } 
+    </script>
+</body>
+</html>

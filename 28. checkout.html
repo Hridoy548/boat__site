@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script  src="../js/agent.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/agent.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>checkout</title>
+</head>
+<body>
+    <!-- Header Area Start -->
+    <div class="row mt-3 mb-2 main_header main_headertwo">
+        <div class="col-11 margin_auto">
+          <div class="header_container">
+            <div class="site_header">
+              <div class="ste_logo">
+                <img src="img/logo.png" alt="">
+              </div>
+            </div>
+            <div class="site_navbar">
+              <input type="checkbox" id="check">
+              <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+              </label>
+              <ul>
+                  <li><a href="#">My Booking</a></li>
+                  <li><a href="#">Search Boat</a></li>
+                  <li><a href="#">Message</a></li>
+                  <li><a href="16. agentnotification.html">Notification</a></li>
+              </ul>
+            </div>
+            <div class="selec_for__alloption">
+              <div class="extra_design__mainsec">
+                  <img src="img/profile1.png" alt="">
+                  <div class="edm_content">
+                      <p>Logged in as Agent</p>
+                      <h4>Jonathan Reeves</h4>
+                  </div>
+                  <span><i class="fa-solid fa-caret-down"></i></span>
+              </div>
+              <div class="extra_design__mainsechelp">
+                  <a href="#">My Booking</a>
+                  <a href="1. login.html" style="color: #FF6E6E;">Log Out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div><hr>
+    <!-- Header Area Stop -->
+
+    <!-- Main Page Area Start -->
+    <div class="checkout_page">
+        <div class="row new_salesmanadd__pop1">
+            <div class="col-md-6 col-10 col-sm-8 margin_auto new_sad__pop1cont">
+                <div class="for_box_shadow">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="sales_poptwo__content">
+                                <div class="pop_2__icon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <h4>Thank You</h4>
+                                <p>Please wait for the confirmation in your email within 24 hours.<br> Meanwhile, you can check your booking in My Account, or <br>Contact us if you have any issues regarding booking.</p>
+                                <div class="pop_2__button">
+                                    <a id="back-to-list" href="15. agentHome.html" class="pop_two___but1">Back to Home</a>
+                                    <a id="add-another-pop2" href="29. booking.html" class="pop_two___but2">View Booking</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Page Area Start -->
+
+    <script>
+        var extra_design__mainsec = document.querySelector(".extra_design__mainsec");
+        var extra_design__mainsechelp = document.querySelector(".extra_design__mainsechelp");
+        
+        
+        extra_design__mainsec.onclick = ()=>{
+            extra_design__mainsechelp.classList.toggle("active");
+        } 
+    </script>
+    
+</body>
+</html>
